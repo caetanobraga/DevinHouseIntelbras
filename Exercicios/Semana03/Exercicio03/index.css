@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    background-color: darkblue;
+    font-size: 1.4rem;
+    color: white;
+    width: 200px;
+}
+
+.lista{
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+}

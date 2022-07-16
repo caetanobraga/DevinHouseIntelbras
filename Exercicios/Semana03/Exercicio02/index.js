@@ -11,7 +11,7 @@ var listaConvidados = [
     { nome: "Pedro", sobrenome: "Lobo" },
   ];
 
-  lista = document.getElementById("convidados")
+  var lista = document.getElementById("convidados")
 
   listaConvidados.forEach((convidado) =>{
 
