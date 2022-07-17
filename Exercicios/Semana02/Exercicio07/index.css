@@ -85,15 +85,15 @@ footer {
 }
 
 .card-img {
-    height: 40%;
+    height: 30vh;
     display: flex;
     flex: 3;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
 }
 
 .card-img img {
+    display: flex;
     flex-shrink: 0;
     max-width: 100%;
     max-height: 100%;
@@ -147,7 +147,6 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
-    gap: 20px;
 }
 
 .lista_eventos .card {
