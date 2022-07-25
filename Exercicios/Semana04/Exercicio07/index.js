@@ -108,17 +108,18 @@ const operacoes = (event) => {
 
     if (!senha){
         exibeMensagem('Informe a senha')
-        return
+        return;
     }
 
     const contaAtual = contasClientes.find((conta) => conta.id === contaId);
     if (!contaAtual){
         exibeMensagem('Conta inválida!');
+        return;
     }
 
     if (contaAtual.senha !== parseInt(senha)){
         exibeMensagem('Senha inválida!');
-        return
+        return;
     }
 
     switch (operacao) {
