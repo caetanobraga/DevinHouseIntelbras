@@ -1,3 +1,3 @@
-import oi from "./saudacao.js";
+import {saudacao} from "./saudacao.js";
 
-oi();
+saudacao();

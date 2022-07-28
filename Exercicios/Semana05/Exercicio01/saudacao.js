@@ -1,5 +1,3 @@
-function saudacao(){
+export function saudacao(){
     console.log("olá");
 }
-
-export default saudacao;
