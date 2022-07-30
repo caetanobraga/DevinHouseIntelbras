@@ -1,9 +1,9 @@
-**[M1S05] - Ex 4 - Criando classes**
+**[M1S05] - Ex 5 - Criando métodos**
 
 
 
 
 
-Crie uma classe **Pedido**, com as propriedades **numeroPedido**, **dataPedido**, **estaPago**, **listaProdutos** e **nomeCliente**.
+Dentro da classe **Pedido**, adicione um método **adicionarProduto**, que recebe como argumento um objeto do tipo **Produto** ( _caso deseje_, você pode realizar uma validação utilizando o operador _instanceof_).
 
-Utilize o método construtor para que, a cada instancia dessa classe, um número do pedido e o nome do cliente seja informado, a **dataPedido** seja a data atual ( *new Date( ).toLocaleDateString( )* ), o **estaPago** seja falso e a **listaProdutos** seja um array vazio.
+Este método deve adicionar (**push**) à propriedade **listaProdutos** o produto passado como argumento.
