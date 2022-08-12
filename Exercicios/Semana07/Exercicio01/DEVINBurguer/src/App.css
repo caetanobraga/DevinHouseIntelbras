@@ -1,0 +1,13 @@
+#root {
+  display: flex;
+  flex: 1;
+  color: azure;
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
