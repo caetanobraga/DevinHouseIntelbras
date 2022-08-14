@@ -1,0 +1,13 @@
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 24px;
+}
+
+ul {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+}
