@@ -19,18 +19,17 @@
     border-radius: 16px 16px 16px 16px;
     border-style: none;
     background-color: bisque;
-    width: 20%;
+    width: 30%;
     box-shadow: 10px 10px 5px lightblue;
     padding: 20px;
     margin-top: 10px;
-    height: 400px;
+
   }
   
 
   
   .fotoPrato img {
     max-width: 100%;
-    height: 200px;
     filter: grayscale(50%);
     border-radius: 16px 16px 0 0;
   }
