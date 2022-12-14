@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ATM Longe</h1>
+    </header>
+    <main>
+        <form id="form">
+            <div class="formGroup">
+                <label form="conta">Conta:</label>
+                <select id="contasselect" class="field">
+                    <option value="0">Selecione</option>
+                </select>
+            </div>
+           
+            <div class="formGroup">
+                <label form="valor">Valor:</label>
+                <input id="valor" class="field" type="number" placeholder="Valor">
+            </div>
+
+            <div class="formGroup">
+                <label form="operacao">Operação:</label>
+                <select id="operacao" class="field">
+                    <option value="0">Selecione</option>
+                    <option value="1">--Sacar</option>
+                    <option value="2">--Depositar</option>
+                </select>
+            </div>
+
+            <div class="formGroup">
+                <label form="senha">Senha:</label>
+                <input id="senha" class="field" type="password" placeholder="Senha">
+            </div>
+
+
+            <button id="confirmar" class="button-confirm">Confirmar</button>
+        </form>
+        <strong id="mensagem"></strong>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

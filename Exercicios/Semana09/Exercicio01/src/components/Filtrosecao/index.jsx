@@ -1,1 +1,0 @@
-export {FiltroSecao} from "./FiltroSecao";
