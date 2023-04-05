@@ -1,10 +1,10 @@
-import './App.css';
+import { CustomThemeProvider } from './contexts';
 
 function App() {
   return (
-    <div className="App">
-      <h1>APP</h1>
-    </div>
+    <CustomThemeProvider>
+      <p>Olá</p>
+    </CustomThemeProvider>
   );
 }
 
