@@ -7,7 +7,7 @@ function App() {
     <CustomThemeProvider>
       <GlobalStyle />
       <AppLayout>
-        <p>Olá</p>
+        <h1>Olá</h1>
       </AppLayout>
     </CustomThemeProvider>
   );
