@@ -14,6 +14,8 @@ export const GlobalStyle = createGlobalStyle`
   font-weight: 400;
 
   color-scheme: light dark;
+  color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.backGroundPrimary};
 }
 
 `;

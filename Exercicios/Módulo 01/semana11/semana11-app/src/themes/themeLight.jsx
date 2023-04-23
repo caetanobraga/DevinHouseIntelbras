@@ -5,7 +5,7 @@ export const themeLight = {
   colors: {
     backGroundPrimary: '#DDDD',
     backGroundSecundary: '#BEBEBE',
-    primary: '#A0B2A6',
-    secundary: '#CBBFBB',
+    primary: '#73628a',
+    secundary: '#ffbcb5',
   },
 };
