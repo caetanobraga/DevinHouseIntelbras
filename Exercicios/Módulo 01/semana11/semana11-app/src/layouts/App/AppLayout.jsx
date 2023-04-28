@@ -1,7 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 import { useCustomTheme } from '../../contexts';
-import { Navbar, Profile } from '../../components';
+import { Navbar } from '../../components';
 import { PerfilProvider } from '../../contexts/Perfil/PerfilProvider';
+import { Profiles } from '../../pages';
 import { GlobalStyle } from '../../themes';
 
 export const AppLayout = () => {
@@ -11,7 +12,7 @@ export const AppLayout = () => {
       <GlobalStyle />
       <Navbar />
       <PerfilProvider>
-        <Profile />
+        <Profiles />
       </PerfilProvider>
     </ThemeProvider>
   );
